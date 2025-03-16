@@ -11,14 +11,14 @@ function Cards({ item }) {
           <div className="card-body">
             <h2 className="card-title">
               {item.name}
-              <div className="badge badge-secondary  bg-red-500 text-white">{item.category}</div>
+              <div className="badge badge-secondary bg-red-500">{item.category}</div>
             </h2>
             <p>{item.title}</p>
             <div className="card-actions justify-between">
-              <div className="badge bg-black text-white dark:bg-white dark:text-black cursor-pointer">${item.price}</div>
+            <div className="badge bg-black text-white dark:bg-white dark:text-black cursor-pointer">${item.price}</div>
               <div className=" cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-red-500 hover:text-white duration-200 
               dark:bg-white dark:text-black dark:hover:bg-red-500 dark:hover:text-white dark:hover:duration-200">
-                Buy Now
+                Read Now
               </div>
             </div>
           </div>
